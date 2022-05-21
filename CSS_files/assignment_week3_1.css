@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#a{
+   background: linear-gradient(to bottom,grey 20%,black 60%); 
+}
+h4{
+    color:yellow;
+
+}
+h4>p{
+    color:white;
+}
+p>button{
+    color: yellow;
+}
+#r1{
+    background: linear-gradient(to bottom, black 10%,grey 20%,yellow 95%);
+}
+p{
+    color: white;
+    font-size: larger;
+}
+div>a{
+    color: black;
+}
+#r2>h1{
+    color: yellow;
+    font-size: 50px;
+}
+#r2{
+    padding-top: 0;
+    background: linear-gradient(to bottom,yellow 1%,rgb(0,0,0,) 5%);
+}
+#r3,#r3>h1{
+    background: linear-gradient(black 1%,grey 5%);
+    color: yellow;
+}
+#r3>button{
+    opacity: 100%;
+    color: yellow;
+}
+#r4{
+    background: linear-gradient(grey 3%,yellow 10%);
+}
+#r4>p{
+    color: black;
+}
+#r4>h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+

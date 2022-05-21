@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../Font_Style/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+body{
+    font-style: roboto;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(7, 117, 243,0.5);
+    position: relative;
+}
+.img{
+    width:10%
+}
+.row{
+    width: 45%;
+}
+.row>ul>li{
+    float: left;
+    width: 25%;
+    list-style: none;
+    line-height: 30px;
+    height: 50px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav>ul>li:hover,nav>ul>li:hover a{
+    color: blue;
+    background-color: white;
+}
+ul>li:hover>.con{
+    display: block;
+}
+.con{
+    display: none;
+}
+.Our_services{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    color: black;
+    line-height: 20px;
+}
+.row1,.row2{
+    width: 47%;
+    float: left;
+    padding: 10px;
+}
+.row1{
+    background-color: darkgreen;
+    height: 225px;
+}
+.row2{
+    background-color: white;
+    height: 225px;
+}
+.col1{
+    width: 47%;
+    float: left;
+}
+.Your_Industry{
+    width: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(75, 75, 247);
+}
+.col2{
+    width: 30%;
+    margin: 10px;
+}
+.col2>ul>li>a{
+    color: white;
+}
+.About_us{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(75, 75, 247);
+}
+.Hub{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    background-color: rgb(75, 75, 247);
+    color: white;
+}
+.Ihub{
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    color: white;
+    background-color: rgb(75, 75, 247);
+}
+.Ihub>ul>li>a{
+    color: white;
+}
+.Contact{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    background-color: rgb(108, 50, 241);
+    color: white;
+}

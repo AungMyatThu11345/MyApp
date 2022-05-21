@@ -1,0 +1,109 @@
+@font-face {
+    font-family: EB;
+    src: url(../Font_Style/EBGaramond-VariableFont_wght.ttf);
+}
+body{
+    margin: 50px;
+    padding: 0px;
+    background-color: white;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub_row{
+    border: 2px solid blue;
+    width: 46%;
+    text-align: center;
+    margin: 10px;
+    height: 250px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.box1{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 250px;
+}
+.box2{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.box1:hover,.box2:hover{
+    background-color: white;
+    border: 1px solid blue;
+}
+.box1:hover a,.box2:hover a{
+    color: blue;
+}
+.container2,.container2 h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.row2{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row2 h1{
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.box3{
+    width: 15%;
+    height: 50px;
+    margin: 10px;
+    border: white solid 2px;
+    line-height: 50px;
+}
+.box3:hover,.box3:hover a{
+    color:blue;
+    background-color: white;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    border-right: 2px solid blue;
+    width: 30%;
+    text-transform: none;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+.col1{
+    width: 30%;
+    text-transform: none;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}

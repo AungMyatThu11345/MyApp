@@ -1,0 +1,24 @@
+div{
+    background-color: rgb(241, 122, 188);
+}
+p,h2{
+    color: rgb(255, 27, 10);
+}
+div>div>div>h2{
+    color: blue;
+}
+p+p{
+    background-color:purple;
+}
+h2+p{
+    background-color: aqua;
+}
+div>div{
+    background-color: lightgreen;
+}
+label{
+    color: white;
+}
+button{
+    background-color: mediumpurple;
+}

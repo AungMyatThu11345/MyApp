@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "my_font";
+    src: url("../Font_Style/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+}
+body{
+    font-family: my_font;
+    background-color: rgb(73, 64, 64);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: orange;
+    text-transform: uppercase;
+}
+section>table>tbody>tr>td{
+    color: white;
+    font-size: small;
+}
+p{
+    color: white;
+    text-align: center;
+}
+
+div>table>tbody>tr>td>h2{
+    color: orange;
+}
+button{
+    background-color: orange;
+}
+div>table>tbody>tr>td>h2>h2{
+    color: black;
+}
+section+div{
+    background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

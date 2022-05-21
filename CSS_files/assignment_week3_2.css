@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Roboto_flex;
+    src: url(../Font_Style/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto_flex;
+}
+a{
+    text-decoration: none;
+}
+.container1{
+    width: 100%;
+    height: 30px;
+}
+.row1{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.container2{
+    clear: both;
+    width: 100%;
+    height: 100px;
+}
+.row2{
+    width: 45%;
+    height: 100px;
+    float: left;
+}
+.row2>a{
+    line-height: 125px;
+}
+.container3{
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+.row3{
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+.aa{
+    width: 25%;
+    float: left;
+}
+
